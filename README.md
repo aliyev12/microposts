@@ -1,35 +1,11 @@
-# Babel Webpack Starter
+# Microposts
 
-A starter pack to build JavaScript applications using standards from ES2015, ES2016 & ES2017. It uses webpack, Babel and webpack-dev-server to compile and serve. It is fully compatible with Async/Await as it uses the Babel polyfill.
+This is an app for creating posts. You can create, update and delete posts. The app uses Bootstrap and it is built with vanilla JavaScript and ES6 modules. There are 2 ways of using this app. If you already have API endpoints for getting, posting, deleting and putting, you can provide those URLs within app.js. If no API endpoint specified, the app will work just fine but using browser local storage to persist data. 
+I including http library, easyHTTP, which is build using async await .
 
-### Version
-1.1.0
+When ready to deploy, just run 'npm build', and all the code will be bundled, transpiled, and pollyfilled with webpack and babel.
 
-## Usage
-
-### Installation
-
-Install the dependencies
-
-```sh
-$ npm install
-```
-
-### Serve
-To serve in the browser  - Runs webpack-dev-server
-
-```sh
-$ npm start
-```
-
-### Build
-Compile and build
-
-```sh
-$ npm run build
-```
-
-## More Info
+To run the app in your environment, make sure to 'npm install'.
 
 ### Author
 
